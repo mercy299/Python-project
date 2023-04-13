@@ -122,3 +122,29 @@ git push -u origin master
 ls
 sudo Dockerfile
 sudo vi Dockerfile
+ls
+sudo vi hello.py
+git add .
+git commit -m "changed hello.py"
+git push -u origin master
+git add .
+sudo docker build -t python-project .
+sudo docker run python-project
+sudo vi Dockerfile
+sudovi hello.py
+sudo vi hello.py
+sudo docker build -t python-project .
+sudo docker run python-project
+sudo vi Dockerfile
+sudo docker build -t python-project .
+sudo docker run python-project
+sudo docker run python-project -p 80:8080
+sudo docker run -p 80:8080 python-project
+sudo docker run -p 8080:8080 python-project
+docker --version
+docker run -it --init -p 80:8080
+docker run -it -p 80:8080 python-project
+sudo docker run -it -p 80:8080 python-project
+sudo docker run -it -p 8080:8080 python-project
+curl http://localhost:80
+exit

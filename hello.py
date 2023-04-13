@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-hostName = "localhost"
+hostName = "0.0.0.0"
 serverPort = 8080
 
 class MyServer(BaseHTTPRequestHandler):
@@ -9,7 +9,7 @@ class MyServer(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(bytes("Hello, World", "utf-8"))
 
-if _name_ == "_main_":        
+if __name__ == "__main__":        
     webServer = HTTPServer((hostName, serverPort), MyServer)
     print("Server started http://%s:%s" % (hostName, serverPort))
 
