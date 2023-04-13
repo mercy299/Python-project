@@ -44,3 +44,81 @@ sudo vi Dockerfile
 cd app
 sudo nano Dockerfile
 sudo docker build -t python-project .
+ls
+sudo docker run python-project
+sudo docker run python-project .
+cd app
+sudo docker run python-project .
+sudo docker run python-project 
+ls
+sudo docker build python-project . 
+sudo docker build -t python-project . 
+sudo vi Dockerfile
+sudo docker build -t python-project . 
+docker run -p 3000:3000 python-project
+sudo docker run -p 3000:3000 python-project
+sudo vi Dockerfile
+sudo docker build -t python-project . 
+sudo docker run -p 3000:3000 python-project
+cd ..
+ls
+nano hello.py
+sudo nano hello.py
+sudo vi Dockerfile
+sudo docker run -p 3000:3000 python-project
+sudo docker run -p 3000:3000 python-project .
+ls
+sudo vi Dockerfile
+docker run python-project
+sudo docker run python-project
+sudo vi Dockerfile
+ls
+cd app
+ls
+cd ..
+sudo vi Dockerfile
+docker build -t python-project
+docker build -t python-project .
+sudo docker build -t python-project .
+sudo docker run python-project
+sudo vi Dockerfile
+ls
+cd app
+ls
+sudo vi Dockerfile
+ls 
+sudo rm -r Dockerfile
+ls
+sudo rm -r hello.py
+ls
+ls -a
+cd ..
+ls 
+git init 
+git commit -m "Pushed first commit"
+git add .
+git commit -m "Pushed first commit"
+git remote add origin https://github.com/mercy299/Python-project.git
+git push -u origin master
+git remote add origin git@github.com:mercy299/Python-project.git
+git push -u origin master
+git config --list --show-origin
+nano git config --list --show-origin
+git remote set-url origin git@github.com:mercy299/Python-project.git
+nano git config --list --show-origin
+git config --list --show-origin
+git ush -u origin master
+git push -u origin master
+git remote add origin git@github.com:mercy299/Python-project.git
+git config --list --show-origin
+git remote -v
+git push origin master
+git push -u origin master
+ssh-keygen
+cat ./shhh/id_rsa.pub
+cat ./ssh/id_rsa.pub
+cat  /home/ubuntu/.ssh/id_rsa.pub
+git push -u origin master
+ls
+sudo Dockerfile
+sudo vi Dockerfile
